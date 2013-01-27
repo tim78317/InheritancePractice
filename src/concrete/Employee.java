@@ -1,7 +1,4 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package concrete;
 
 /**
@@ -10,4 +7,17 @@ package concrete;
  */
 public class Employee {
     
-}
+  public int ID; 
+   public double hourlypay;
+   public double hoursworked;
+  public double salarywages;
+   String name;
+   String gender;
+   String wagetype;
+
+    
+    }
+    
+    
+   
+
