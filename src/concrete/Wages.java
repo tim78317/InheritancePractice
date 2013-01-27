@@ -26,7 +26,8 @@ public class Wages {
                 + "\n To check hourly paid employee press 2" + " \n To check Salary paid employee press 3");
         switch (input) {
             case "1":
-                JOptionPane.showInputDialog(".....");
+                Employee person = new Employee();
+                person.getEmployeeInfo();
                 break;
             case "2":
                 HourlyEmployee method = new HourlyEmployee();
